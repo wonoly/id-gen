@@ -5,7 +5,7 @@
 ### Instalation
 
 ```sh
-$ composer require wonoly/IDGen
+$ composer require wonoly/id-gen
 ```
 
 ### Usage

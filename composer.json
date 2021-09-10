@@ -1,5 +1,5 @@
 {
-  "name": "wonoly/IDGen",
+  "name": "wonoly/id-gen",
   "description": "🆔 Simple ID generator for anything that needs identifying.",
   "type": "library",
   "require": {
