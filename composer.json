@@ -1,0 +1,21 @@
+{
+  "name": "wonoly/IDGen",
+  "description": "Example description",
+  "type": "library",
+  "require": {
+    "php": ">=5.3.0"
+  },
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "wonoly",
+      "email": "wonoly.official@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "IDGen": "src/IDGen/"
+    }
+  }
+}
