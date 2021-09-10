@@ -4,15 +4,27 @@ namespace IDGen;
 
 class IDGenerator
 {
-    private $string = 8;
 
-    public function __construct($string)
-    {
-        $this->string = $string;
+  public $rounds = 3;
+
+  public function __construct($rounds = 3)
+  {
+    $this->rounds = $rounds;
+  }
+
+  public function generate()
+  {
+
+    $res = "";
+
+    for ($i = 0; $i < $this->rounds; $i++) {
+
+      $time = time();
+      $rand = rand() * time();
+
+      $res = (string)round($time, $rand);
     }
 
-    public function exampleFunc()
-    {
-      return $this->string;
-    }
+    return $res;
+  }
 }

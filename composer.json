@@ -1,6 +1,6 @@
 {
   "name": "wonoly/IDGen",
-  "description": "Example description",
+  "description": "🆔 Simple ID generator for anything that needs identifying.",
   "type": "library",
   "require": {
     "php": ">=5.3.0"
@@ -15,7 +15,7 @@
   "minimum-stability": "dev",
   "autoload": {
     "psr-4": {
-      "IDGen": "src/IDGen/"
+      "IDGen\\": "src/IDGen/"
     }
   }
 }
