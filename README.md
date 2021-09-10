@@ -1,14 +1,19 @@
-# $PACKAGE_NAME This is an example description
+# IDGen
+
+🆔 Simple ID generator for anything that needs identifying.
 
 ### Instalation
 
 ```sh
-$ composer require $PACKAGE_REPO_OWNER/$PACKAGE_REPO_NAME
+$ composer require wonoly/IDGen
 ```
 
-### Usage ```php
+### Usage
+```php
 <?php
 
-use $PACKAGE_NAME\PACKAGE_CLASS;
-$e_class = new $PACKAGE_CLASS("Hello, world"); echo $e_class->exampleFunc();
+use IDGen\IDGenerator;
+$gen = new IDGenerator();
+
+echo $gen->generate();
 ```
